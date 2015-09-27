@@ -17,7 +17,7 @@ where:
 
 
 ## Examples
-### iput_file example
+### input_file example
 
     172.16.99.1/24
     10.0.0.10/20
