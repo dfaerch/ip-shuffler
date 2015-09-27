@@ -50,6 +50,15 @@ Now run ip-shuffler on the example list, writing files to "outdir" with 1000 ip'
      - writing outdir/iplist-00000003.out
      - writing outdir/iplist-00000004.out
 
+## Install notes
+
+You must have the python "netaddr" library installed.
+
+On Debian/Ubuntu:
+
+    $ apt-get install python-netaddr
+
+
 ## Copyright and license
 
 Code released under GPLv2 (see included LICENSE file). Copyright 2015 Dan Faerch - NullQ.com
