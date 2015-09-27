@@ -13,7 +13,7 @@ where:
 
 * input_file:  file containing a list (or mixture) of CIDR notations or ip-adresses (1 per line).
 * out_dir   :  directory where to write all the output files. Will print to STDOUT if omitted.
-* batch_size:  number if ips per output file. (default: 31000)
+* batch_size:  number if IPs per output file. (default: 31000)
 
 
 ## Examples
@@ -28,7 +28,7 @@ where:
 
 This example highlights 2 points:
 
-1. Mixing if regular IPs with CIDR notation is perfectly valid.
+1. Mixing of regular IPs with CIDR notation is perfectly valid.
 2. There are 2 CIDR ranges that are actually overlapping on the list. These will
 automagically be merged, thus removing duplicate IPs.
 

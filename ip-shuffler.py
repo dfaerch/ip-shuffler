@@ -5,9 +5,9 @@ import random, sys, os
 def usage(err):
   print "ERROR: %s\nUsage:\n $ %s input_file  out_dir/ [ batch_size ]" % (err,sys.argv[0]);
   print "where:"
-  print "  input_file:  file containing a list (or mixture) of CIDR notations or ip-adresses (1 per line)"
-  print "  out_dir   :  directory where to write all the output files"
-  print "  batch_size:  number if ips per output file"
+  print "  input_file:  file containing a list (or mixture) of CIDR notations or ip-adresses (1 per line)."
+  print "  out_dir   :  directory where to write all the output files. Will print to STDOUT if omitted."
+  print "  batch_size:  number if IPs per output file. (default: 31000)"
   exit(1)
 
 stdout = 0;
