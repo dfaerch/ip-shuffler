@@ -1,7 +1,6 @@
 #!/usr/bin/python
 from netaddr import *
 import random, sys, os
-import pprint;
 
 def usage(err):
   print "ERROR: %s\nUsage:\n $ %s input_file  out_dir/ [ batch_size ]" % (err,sys.argv[0]);
