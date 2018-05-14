@@ -61,7 +61,7 @@ On Debian/Ubuntu:
 
 ## Copyright and license
 
-Code released under GPLv2 (see included LICENSE file). Copyright 2015 Dan Faerch - NullQ.com
+Code released under GPLv2 (see included LICENSE file). Copyright 2015-2018, Dan Faerch.
 
 
 
