@@ -50,7 +50,7 @@ print "Reading %s" % (ip_list_file);
 
 for line in f:
   if "/" not in line:
-    line.append("/32")
+    line += "/32"
   cidr_list.append(IPNetwork(line))
 
 # Expand networks into individual IPs
